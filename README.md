@@ -1,0 +1,2 @@
+# lidar_contaminant_classification
+lidar_cover_contamination
