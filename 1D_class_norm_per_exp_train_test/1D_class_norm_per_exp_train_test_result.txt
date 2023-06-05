@@ -1,0 +1,573 @@
+model_name:  logit
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.67      0.93      0.78       450
+        foam       0.20      0.14      0.16       251
+         oil       1.00      1.00      1.00       450
+       water       0.96      0.75      0.84       450
+
+    accuracy                           0.80      1781
+   macro avg       0.80      0.80      0.80      1781
+weighted avg       0.79      0.80      0.79      1781
+
+elapsed_training:  0.4295785427093506
+elapsed_instance:  4.1189788098686e-06
+==============
+model_name:  mlp
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.73      0.98      0.84       450
+        foam       0.55      0.33      0.41       251
+         oil       1.00      1.00      1.00       450
+       water       0.98      0.85      0.91       450
+
+    accuracy                           0.86      1781
+   macro avg       0.88      0.86      0.86      1781
+weighted avg       0.86      0.86      0.85      1781
+
+elapsed_training:  3.6926515102386475
+elapsed_instance:  6.8119976508490225e-06
+==============
+model_name:  svm_rbf
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.64      0.99      0.78       450
+        foam       0.00      0.00      0.00       251
+         oil       1.00      1.00      1.00       450
+       water       0.98      0.58      0.73       450
+
+    accuracy                           0.75      1781
+   macro avg       0.77      0.76      0.75      1781
+weighted avg       0.76      0.75      0.74      1781
+
+elapsed_training:  1.3975303173065186
+elapsed_instance:  0.00022047801609456974
+==============
+model_name:  naive_bayes
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.57      0.39      0.46       450
+        foam       0.27      0.47      0.35       251
+         oil       1.00      0.98      0.99       450
+       water       1.00      0.93      0.96       450
+
+    accuracy                           0.75      1781
+   macro avg       0.81      0.80      0.79      1781
+weighted avg       0.79      0.75      0.76      1781
+
+elapsed_training:  0.005556821823120117
+elapsed_instance:  1.3819174576448229e-06
+==============
+model_name:  knn
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.79      0.98      0.88       450
+        foam       0.93      0.54      0.69       251
+         oil       1.00      1.00      1.00       450
+       water       1.00      0.99      0.99       450
+
+    accuracy                           0.93      1781
+   macro avg       0.95      0.92      0.93      1781
+weighted avg       0.94      0.93      0.92      1781
+
+elapsed_training:  0.002641916275024414
+elapsed_instance:  0.0002331057671145868
+==============
+model_name:  decision_tree
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.62      0.20      0.30       450
+        foam       0.22      0.78      0.35       251
+         oil       1.00      1.00      1.00       450
+       water       0.99      0.26      0.41       450
+
+    accuracy                           0.58      1781
+   macro avg       0.81      0.71      0.68      1781
+weighted avg       0.79      0.58      0.58      1781
+
+elapsed_training:  0.13814449310302734
+elapsed_instance:  7.176653579806157e-07
+Feature: 0, Score: 0.01135
+Feature: 1, Score: 0.00000
+Feature: 2, Score: 0.00000
+Feature: 3, Score: 0.00000
+Feature: 4, Score: 0.00000
+Feature: 5, Score: 0.00010
+Feature: 6, Score: 0.00011
+Feature: 7, Score: 0.00000
+Feature: 8, Score: 0.00164
+Feature: 9, Score: 0.00041
+Feature: 10, Score: 0.00581
+Feature: 11, Score: 0.30201
+Feature: 12, Score: 0.00000
+Feature: 13, Score: 0.00176
+Feature: 14, Score: 0.23552
+Feature: 15, Score: 0.00380
+Feature: 16, Score: 0.10928
+Feature: 17, Score: 0.00055
+Feature: 18, Score: 0.00034
+Feature: 19, Score: 0.00557
+Feature: 20, Score: 0.00000
+Feature: 21, Score: 0.00000
+Feature: 22, Score: 0.01441
+Feature: 23, Score: 0.12740
+Feature: 24, Score: 0.00026
+Feature: 25, Score: 0.12317
+Feature: 26, Score: 0.00033
+Feature: 27, Score: 0.00056
+Feature: 28, Score: 0.00053
+Feature: 29, Score: 0.00140
+Feature: 30, Score: 0.00692
+Feature: 31, Score: 0.00112
+Feature: 32, Score: 0.00023
+Feature: 33, Score: 0.04497
+Feature: 34, Score: 0.00011
+Feature: 35, Score: 0.00034
+==============
+model_name:  random_forest
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.80      0.20      0.32       450
+        foam       0.24      0.91      0.38       251
+         oil       1.00      1.00      1.00       450
+       water       1.00      0.19      0.32       450
+
+    accuracy                           0.58      1781
+   macro avg       0.84      0.72      0.67      1781
+weighted avg       0.84      0.58      0.57      1781
+
+elapsed_training:  0.1716601848602295
+elapsed_instance:  2.220197717237178e-06
+Feature: 0, Score: 0.01963
+Feature: 1, Score: 0.00045
+Feature: 2, Score: 0.00040
+Feature: 3, Score: 0.00043
+Feature: 4, Score: 0.00015
+Feature: 5, Score: 0.00357
+Feature: 6, Score: 0.00933
+Feature: 7, Score: 0.00037
+Feature: 8, Score: 0.11172
+Feature: 9, Score: 0.00080
+Feature: 10, Score: 0.03177
+Feature: 11, Score: 0.05308
+Feature: 12, Score: 0.04478
+Feature: 13, Score: 0.09532
+Feature: 14, Score: 0.08411
+Feature: 15, Score: 0.05789
+Feature: 16, Score: 0.02185
+Feature: 17, Score: 0.00108
+Feature: 18, Score: 0.00176
+Feature: 19, Score: 0.00077
+Feature: 20, Score: 0.00057
+Feature: 21, Score: 0.00033
+Feature: 22, Score: 0.05336
+Feature: 23, Score: 0.02329
+Feature: 24, Score: 0.00011
+Feature: 25, Score: 0.01378
+Feature: 26, Score: 0.05775
+Feature: 27, Score: 0.07634
+Feature: 28, Score: 0.02069
+Feature: 29, Score: 0.08341
+Feature: 30, Score: 0.01808
+Feature: 31, Score: 0.00045
+Feature: 32, Score: 0.03591
+Feature: 33, Score: 0.05832
+Feature: 34, Score: 0.00129
+Feature: 35, Score: 0.01710
+==============
+model_name:  logit
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.67      0.93      0.78       450
+        foam       0.20      0.14      0.16       251
+         oil       1.00      1.00      1.00       450
+       water       0.96      0.75      0.84       450
+
+    accuracy                           0.80      1781
+   macro avg       0.80      0.80      0.80      1781
+weighted avg       0.79      0.80      0.79      1781
+
+elapsed_training:  0.40716004371643066
+elapsed_instance:  1.951658879686513e-06
+==============
+model_name:  mlp
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.72      0.99      0.84       450
+        foam       0.57      0.33      0.42       251
+         oil       1.00      1.00      1.00       450
+       water       0.98      0.86      0.92       450
+
+    accuracy                           0.87      1781
+   macro avg       0.88      0.86      0.86      1781
+weighted avg       0.87      0.87      0.86      1781
+
+elapsed_training:  3.7799036502838135
+elapsed_instance:  7.183480838387954e-06
+==============
+model_name:  svm_rbf
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.64      0.99      0.78       450
+        foam       0.00      0.00      0.00       251
+         oil       1.00      1.00      1.00       450
+       water       0.98      0.58      0.73       450
+
+    accuracy                           0.75      1781
+   macro avg       0.77      0.76      0.75      1781
+weighted avg       0.76      0.75      0.74      1781
+
+elapsed_training:  1.391462802886963
+elapsed_instance:  0.0002469657713747105
+==============
+model_name:  naive_bayes
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.57      0.39      0.46       450
+        foam       0.27      0.47      0.35       251
+         oil       1.00      0.98      0.99       450
+       water       1.00      0.93      0.96       450
+
+    accuracy                           0.75      1781
+   macro avg       0.81      0.80      0.79      1781
+weighted avg       0.79      0.75      0.76      1781
+
+elapsed_training:  0.005070686340332031
+elapsed_instance:  1.449119100940154e-06
+==============
+model_name:  knn
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.79      0.98      0.88       450
+        foam       0.93      0.54      0.69       251
+         oil       1.00      1.00      1.00       450
+       water       1.00      0.99      0.99       450
+
+    accuracy                           0.93      1781
+   macro avg       0.95      0.92      0.93      1781
+weighted avg       0.94      0.93      0.92      1781
+
+elapsed_training:  0.0025365352630615234
+elapsed_instance:  0.00025638283671186856
+==============
+model_name:  decision_tree
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.86      0.20      0.32       450
+        foam       0.24      0.94      0.39       251
+         oil       1.00      1.00      1.00       450
+       water       1.00      0.18      0.30       450
+
+    accuracy                           0.58      1781
+   macro avg       0.85      0.72      0.67      1781
+weighted avg       0.86      0.58      0.57      1781
+
+elapsed_training:  0.13634872436523438
+elapsed_instance:  6.958449040819326e-07
+Feature: 0, Score: 0.05480
+Feature: 1, Score: 0.00000
+Feature: 2, Score: 0.00000
+Feature: 3, Score: 0.00000
+Feature: 4, Score: 0.00000
+Feature: 5, Score: 0.00010
+Feature: 6, Score: 0.00034
+Feature: 7, Score: 0.00000
+Feature: 8, Score: 0.00330
+Feature: 9, Score: 0.00000
+Feature: 10, Score: 0.00644
+Feature: 11, Score: 0.30258
+Feature: 12, Score: 0.00034
+Feature: 13, Score: 0.00033
+Feature: 14, Score: 0.23474
+Feature: 15, Score: 0.00402
+Feature: 16, Score: 0.11017
+Feature: 17, Score: 0.00022
+Feature: 18, Score: 0.00000
+Feature: 19, Score: 0.00502
+Feature: 20, Score: 0.00026
+Feature: 21, Score: 0.00026
+Feature: 22, Score: 0.01434
+Feature: 23, Score: 0.12714
+Feature: 24, Score: 0.00000
+Feature: 25, Score: 0.02152
+Feature: 26, Score: 0.00000
+Feature: 27, Score: 0.10253
+Feature: 28, Score: 0.00051
+Feature: 29, Score: 0.00070
+Feature: 30, Score: 0.00486
+Feature: 31, Score: 0.00089
+Feature: 32, Score: 0.00000
+Feature: 33, Score: 0.00164
+Feature: 34, Score: 0.00034
+Feature: 35, Score: 0.00262
+==============
+model_name:  random_forest
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.93      0.58      0.71       450
+        foam       0.30      0.92      0.45       251
+         oil       1.00      1.00      1.00       450
+       water       1.00      0.22      0.36       450
+
+    accuracy                           0.69      1781
+   macro avg       0.87      0.79      0.75      1781
+weighted avg       0.88      0.69      0.69      1781
+
+elapsed_training:  0.16143488883972168
+elapsed_instance:  1.951658879686513e-06
+Feature: 0, Score: 0.03831
+Feature: 1, Score: 0.00008
+Feature: 2, Score: 0.00370
+Feature: 3, Score: 0.00037
+Feature: 4, Score: 0.00044
+Feature: 5, Score: 0.00098
+Feature: 6, Score: 0.00057
+Feature: 7, Score: 0.00063
+Feature: 8, Score: 0.08620
+Feature: 9, Score: 0.00159
+Feature: 10, Score: 0.03875
+Feature: 11, Score: 0.05983
+Feature: 12, Score: 0.04351
+Feature: 13, Score: 0.06839
+Feature: 14, Score: 0.05067
+Feature: 15, Score: 0.08641
+Feature: 16, Score: 0.02794
+Feature: 17, Score: 0.02478
+Feature: 18, Score: 0.00835
+Feature: 19, Score: 0.03652
+Feature: 20, Score: 0.01229
+Feature: 21, Score: 0.00035
+Feature: 22, Score: 0.02899
+Feature: 23, Score: 0.05793
+Feature: 24, Score: 0.00058
+Feature: 25, Score: 0.03898
+Feature: 26, Score: 0.03134
+Feature: 27, Score: 0.01203
+Feature: 28, Score: 0.06937
+Feature: 29, Score: 0.02458
+Feature: 30, Score: 0.04178
+Feature: 31, Score: 0.01129
+Feature: 32, Score: 0.00055
+Feature: 33, Score: 0.04782
+Feature: 34, Score: 0.01215
+Feature: 35, Score: 0.03195
+==============
+model_name:  logit
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.67      0.93      0.78       450
+        foam       0.20      0.14      0.16       251
+         oil       1.00      1.00      1.00       450
+       water       0.96      0.75      0.84       450
+
+    accuracy                           0.80      1781
+   macro avg       0.80      0.80      0.80      1781
+weighted avg       0.79      0.80      0.79      1781
+
+elapsed_training:  0.3360445499420166
+elapsed_instance:  1.9036003339832783e-06
+==============
+model_name:  mlp
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.75      0.98      0.85       450
+        foam       0.72      0.42      0.53       251
+         oil       1.00      1.00      1.00       450
+       water       0.97      0.90      0.94       450
+
+    accuracy                           0.89      1781
+   macro avg       0.91      0.88      0.89      1781
+weighted avg       0.89      0.89      0.88      1781
+
+elapsed_training:  4.005581617355347
+elapsed_instance:  9.685738042524061e-06
+==============
+model_name:  svm_rbf
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.64      0.99      0.78       450
+        foam       0.00      0.00      0.00       251
+         oil       1.00      1.00      1.00       450
+       water       0.98      0.58      0.73       450
+
+    accuracy                           0.75      1781
+   macro avg       0.77      0.76      0.75      1781
+weighted avg       0.76      0.75      0.74      1781
+
+elapsed_training:  1.36830735206604
+elapsed_instance:  0.00024011120375858674
+==============
+model_name:  naive_bayes
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.57      0.39      0.46       450
+        foam       0.27      0.47      0.35       251
+         oil       1.00      0.98      0.99       450
+       water       1.00      0.93      0.96       450
+
+    accuracy                           0.75      1781
+   macro avg       0.81      0.80      0.79      1781
+weighted avg       0.79      0.75      0.76      1781
+
+elapsed_training:  0.00570368766784668
+elapsed_instance:  1.3936978253938052e-06
+==============
+model_name:  knn
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.79      0.98      0.88       450
+        foam       0.93      0.54      0.69       251
+         oil       1.00      1.00      1.00       450
+       water       1.00      0.99      0.99       450
+
+    accuracy                           0.93      1781
+   macro avg       0.95      0.92      0.93      1781
+weighted avg       0.94      0.93      0.92      1781
+
+elapsed_training:  0.002757549285888672
+elapsed_instance:  0.0002812965742193669
+==============
+model_name:  decision_tree
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.78      0.18      0.29       450
+        foam       0.24      0.91      0.38       251
+         oil       1.00      1.00      1.00       450
+       water       1.00      0.18      0.31       450
+
+    accuracy                           0.57      1781
+   macro avg       0.84      0.71      0.66      1781
+weighted avg       0.84      0.57      0.56      1781
+
+elapsed_training:  0.14006447792053223
+elapsed_instance:  8.428317653135528e-07
+Feature: 0, Score: 0.01180
+Feature: 1, Score: 0.00023
+Feature: 2, Score: 0.00000
+Feature: 3, Score: 0.00000
+Feature: 4, Score: 0.00000
+Feature: 5, Score: 0.00033
+Feature: 6, Score: 0.00011
+Feature: 7, Score: 0.00000
+Feature: 8, Score: 0.00131
+Feature: 9, Score: 0.00056
+Feature: 10, Score: 0.00614
+Feature: 11, Score: 0.30225
+Feature: 12, Score: 0.00066
+Feature: 13, Score: 0.00000
+Feature: 14, Score: 0.23498
+Feature: 15, Score: 0.00372
+Feature: 16, Score: 0.10951
+Feature: 17, Score: 0.00063
+Feature: 18, Score: 0.00000
+Feature: 19, Score: 0.00536
+Feature: 20, Score: 0.00176
+Feature: 21, Score: 0.00058
+Feature: 22, Score: 0.01434
+Feature: 23, Score: 0.12746
+Feature: 24, Score: 0.00023
+Feature: 25, Score: 0.02097
+Feature: 26, Score: 0.00000
+Feature: 27, Score: 0.00055
+Feature: 28, Score: 0.04441
+Feature: 29, Score: 0.00029
+Feature: 30, Score: 0.00692
+Feature: 31, Score: 0.00089
+Feature: 32, Score: 0.00000
+Feature: 33, Score: 0.00086
+Feature: 34, Score: 0.10230
+Feature: 35, Score: 0.00085
+==============
+model_name:  random_forest
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.95      0.61      0.74       450
+        foam       0.30      0.94      0.45       251
+         oil       1.00      1.00      1.00       450
+       water       0.99      0.16      0.27       450
+
+    accuracy                           0.68      1781
+   macro avg       0.87      0.78      0.74      1781
+weighted avg       0.88      0.68      0.67      1781
+
+elapsed_training:  0.17135834693908691
+elapsed_instance:  2.2117640448714294e-06
+Feature: 0, Score: 0.05290
+Feature: 1, Score: 0.00037
+Feature: 2, Score: 0.00021
+Feature: 3, Score: 0.00039
+Feature: 4, Score: 0.00024
+Feature: 5, Score: 0.00029
+Feature: 6, Score: 0.00023
+Feature: 7, Score: 0.00045
+Feature: 8, Score: 0.09483
+Feature: 9, Score: 0.00098
+Feature: 10, Score: 0.06317
+Feature: 11, Score: 0.03822
+Feature: 12, Score: 0.07860
+Feature: 13, Score: 0.09419
+Feature: 14, Score: 0.03488
+Feature: 15, Score: 0.03006
+Feature: 16, Score: 0.00896
+Feature: 17, Score: 0.00246
+Feature: 18, Score: 0.00068
+Feature: 19, Score: 0.01209
+Feature: 20, Score: 0.02196
+Feature: 21, Score: 0.00044
+Feature: 22, Score: 0.02709
+Feature: 23, Score: 0.08730
+Feature: 24, Score: 0.00064
+Feature: 25, Score: 0.00685
+Feature: 26, Score: 0.07199
+Feature: 27, Score: 0.08475
+Feature: 28, Score: 0.00572
+Feature: 29, Score: 0.00321
+Feature: 30, Score: 0.05137
+Feature: 31, Score: 0.00047
+Feature: 32, Score: 0.01217
+Feature: 33, Score: 0.06084
+Feature: 34, Score: 0.04283
+Feature: 35, Score: 0.00815
+==============
