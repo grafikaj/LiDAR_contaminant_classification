@@ -1,0 +1,144 @@
+CNN 2D - fold: 
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.98      0.99      0.98       450
+        foam       0.95      0.96      0.96       255
+         oil       1.00      1.00      1.00       450
+       water       1.00      0.98      0.99       450
+
+    accuracy                           0.99      1785
+   macro avg       0.99      0.99      0.99      1785
+weighted avg       0.99      0.99      0.99      1785
+
+Training time per Fold: 69.32244896888733
+Inference time per Fold: 0.01952981948852539
+Inference instance: 1785
+Inference time per instance: 1.0941075343711704e-05
+=====CPU=========
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.98      0.99      0.98       450
+        foam       0.95      0.96      0.96       255
+         oil       1.00      1.00      1.00       450
+       water       1.00      0.98      0.99       450
+
+    accuracy                           0.99      1785
+   macro avg       0.99      0.99      0.99      1785
+weighted avg       0.99      0.99      0.99      1785
+
+Inference time per Fold CPU: 0.07565546035766602
+Inference instance CPU: 1785
+Inference time per instance CPU: 4.238401140485491e-05
+==============
+CNN 2D - fold: 
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.97      0.98      0.97       450
+        foam       1.00      0.95      0.98       255
+         oil       1.00      1.00      1.00       450
+       water       0.98      1.00      0.99       450
+
+    accuracy                           0.99      1785
+   macro avg       0.99      0.99      0.99      1785
+weighted avg       0.99      0.99      0.99      1785
+
+Training time per Fold: 49.047866344451904
+Inference time per Fold: 0.02030491828918457
+Inference instance: 1785
+Inference time per instance: 1.1375304363688834e-05
+=====CPU=========
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.97      0.98      0.97       450
+        foam       1.00      0.95      0.98       255
+         oil       1.00      1.00      1.00       450
+       water       0.98      1.00      0.99       450
+
+    accuracy                           0.99      1785
+   macro avg       0.99      0.99      0.99      1785
+weighted avg       0.99      0.99      0.99      1785
+
+Inference time per Fold CPU: 0.06844830513000488
+Inference instance CPU: 1785
+Inference time per instance CPU: 3.834638942857416e-05
+==============
+CNN 2D - fold: 
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.97      0.99      0.98       450
+        foam       0.98      0.95      0.97       255
+         oil       1.00      1.00      1.00       450
+       water       1.00      1.00      1.00       450
+
+    accuracy                           0.99      1785
+   macro avg       0.99      0.99      0.99      1785
+weighted avg       0.99      0.99      0.99      1785
+
+Training time per Fold: 51.34577822685242
+Inference time per Fold: 0.0193178653717041
+Inference instance: 1785
+Inference time per instance: 1.0822333541570925e-05
+=====CPU=========
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.97      0.99      0.98       450
+        foam       0.98      0.95      0.97       255
+         oil       1.00      1.00      1.00       450
+       water       1.00      1.00      1.00       450
+
+    accuracy                           0.99      1785
+   macro avg       0.99      0.99      0.99      1785
+weighted avg       0.99      0.99      0.99      1785
+
+Inference time per Fold CPU: 0.07195329666137695
+Inference instance CPU: 1785
+Inference time per instance CPU: 4.030997011841846e-05
+==============
+CNN 2D - fold: 
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.97      0.98      0.97       450
+        foam       0.99      0.95      0.97       255
+         oil       1.00      1.00      1.00       450
+       water       0.98      1.00      0.99       450
+
+    accuracy                           0.99      1785
+   macro avg       0.99      0.99      0.99      1785
+weighted avg       0.99      0.99      0.99      1785
+
+Training time per Fold: 49.29996299743652
+Inference time per Fold: 0.01898670196533203
+Inference instance: 1785
+Inference time per instance: 1.0636807823715423e-05
+=====CPU=========
+              precision    recall  f1-score   support
+
+       clean       1.00      1.00      1.00        90
+       cover       1.00      1.00      1.00        90
+        dirt       0.97      0.98      0.97       450
+        foam       0.99      0.95      0.97       255
+         oil       1.00      1.00      1.00       450
+       water       0.98      1.00      0.99       450
+
+    accuracy                           0.99      1785
+   macro avg       0.99      0.99      0.99      1785
+weighted avg       0.99      0.99      0.99      1785
+
+Inference time per Fold CPU: 0.1512138843536377
+Inference instance CPU: 1785
+Inference time per instance CPU: 8.471366070231804e-05
+==============
